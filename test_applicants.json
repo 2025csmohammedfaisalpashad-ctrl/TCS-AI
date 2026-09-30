@@ -1,0 +1,170 @@
+{
+  "APP001": {
+    "applicant": {
+      "age": 27,
+      "monthly_income": 60000,
+      "credit_score": 760,
+      "employment_years": 3.0,
+      "existing_emi": 15000,
+      "loan_amount": 200000
+    },
+    "expected_verdict": "ELIGIBLE",
+    "note": "Normal eligible applicant (DTI 32.4% <= 50%, age 27, credit 760)"
+  },
+  "APP002": {
+    "applicant": {
+      "age": 27,
+      "monthly_income": 60000,
+      "credit_score": 760,
+      "employment_years": 3.0,
+      "existing_emi": 15000,
+      "loan_amount": 1000000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "High DTI (62.1% > 55% fail threshold)"
+  },
+  "APP003": {
+    "applicant": {
+      "age": 19,
+      "monthly_income": 50000,
+      "credit_score": 720,
+      "employment_years": 1.5,
+      "existing_emi": 5000,
+      "loan_amount": 100000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "Age below minimum (19 < 21)"
+  },
+  "APP004": {
+    "applicant": {
+      "age": 63,
+      "monthly_income": 75000,
+      "credit_score": 750,
+      "employment_years": 10.0,
+      "existing_emi": 0,
+      "loan_amount": 200000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "Age above maximum (63 > 60)"
+  },
+  "APP005": {
+    "applicant": {
+      "age": 25,
+      "monthly_income": 20000,
+      "credit_score": 710,
+      "employment_years": 2.0,
+      "existing_emi": 2000,
+      "loan_amount": 50000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "Income below minimum (₹20,000 < ₹25,000)"
+  },
+  "APP006": {
+    "applicant": {
+      "age": 30,
+      "monthly_income": 45000,
+      "credit_score": 650,
+      "employment_years": 4.0,
+      "existing_emi": 5000,
+      "loan_amount": 100000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "Low credit score (650 < 680)"
+  },
+  "APP007": {
+    "applicant": {
+      "age": 32,
+      "monthly_income": 55000,
+      "credit_score": 690,
+      "employment_years": 3.5,
+      "existing_emi": 8000,
+      "loan_amount": 150000
+    },
+    "expected_verdict": "REVIEW",
+    "note": "Credit score in review band (690, between 680-699)"
+  },
+  "APP008": {
+    "applicant": {
+      "age": 24,
+      "monthly_income": 40000,
+      "credit_score": 730,
+      "employment_years": 0.5,
+      "existing_emi": 3000,
+      "loan_amount": 100000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "Employment below 1 year (0.5 < 1.0)"
+  },
+  "APP009": {
+    "applicant": {
+      "age": 35,
+      "monthly_income": 50000,
+      "credit_score": 740,
+      "employment_years": 5.0,
+      "existing_emi": 15000,
+      "loan_amount": 500000
+    },
+    "expected_verdict": "REVIEW",
+    "note": "DTI in review band (52.2%, between 50-55%)"
+  },
+  "APP010": {
+    "applicant": {
+      "age": 38,
+      "monthly_income": 150000,
+      "credit_score": 820,
+      "employment_years": 12.0,
+      "existing_emi": 10000,
+      "loan_amount": 500000
+    },
+    "expected_verdict": "ELIGIBLE",
+    "note": "Strong eligible applicant (high income ₹150k, 820 credit score)"
+  },
+  "APP011": {
+    "applicant": {
+      "age": 19,
+      "monthly_income": 18000,
+      "credit_score": 620,
+      "employment_years": 0.4,
+      "existing_emi": 12000,
+      "loan_amount": 300000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "Multiple failures (age, income, credit, employment)"
+  },
+  "APP012": {
+    "applicant": {
+      "age": 29,
+      "monthly_income": 70000,
+      "credit_score": null,
+      "employment_years": 4.0,
+      "existing_emi": 5000,
+      "loan_amount": 250000
+    },
+    "expected_verdict": "INCOMPLETE",
+    "note": "Missing credit score (null)"
+  },
+  "APP013": {
+    "applicant": {
+      "age": 40,
+      "monthly_income": 200000,
+      "credit_score": 780,
+      "employment_years": 8.0,
+      "existing_emi": 10000,
+      "loan_amount": 2500000
+    },
+    "expected_verdict": "NOT_ELIGIBLE",
+    "note": "Loan amount above maximum (₹25,00,000 > ₹20,00,000)"
+  },
+  "APP014": {
+    "applicant": {
+      "age": 21,
+      "monthly_income": 25000,
+      "credit_score": 700,
+      "employment_years": 1.0,
+      "existing_emi": 0,
+      "loan_amount": 50000
+    },
+    "expected_verdict": "ELIGIBLE",
+    "note": "Exact boundary values (age 21, income 25k, credit 700, emp 1yr, loan 50k)"
+  }
+}

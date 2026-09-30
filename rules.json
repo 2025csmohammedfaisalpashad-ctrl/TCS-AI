@@ -1,0 +1,31 @@
+{
+  "loan_type": "personal",
+  "emi_assumptions": {
+    "annual_interest_rate": 0.12,
+    "tenure_months": 60
+  },
+  "rules": {
+    "age": {
+      "min": 21,
+      "max": 60
+    },
+    "monthly_income": {
+      "min": 25000
+    },
+    "credit_score": {
+      "min": 700,
+      "review_min": 680
+    },
+    "employment_years": {
+      "min": 1
+    },
+    "dti": {
+      "max": 0.5,
+      "review_max": 0.55
+    },
+    "loan_amount": {
+      "min": 50000,
+      "max": 2000000
+    }
+  }
+}

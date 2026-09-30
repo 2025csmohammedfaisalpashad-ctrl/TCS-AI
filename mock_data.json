@@ -1,0 +1,92 @@
+{
+  "APP001": {
+    "monthly_income": 60000,
+    "credit_score": 760,
+    "employment_years": 3.0,
+    "existing_emi": 15000
+  },
+  "APP002": {
+    "monthly_income": 85000,
+    "credit_score": 780,
+    "employment_years": 5.0,
+    "existing_emi": 12000
+  },
+  "APP003": {
+    "monthly_income": 40000,
+    "credit_score": 710,
+    "employment_years": 2.0,
+    "existing_emi": 5000
+  },
+  "APP004": {
+    "monthly_income": 120000,
+    "credit_score": 820,
+    "employment_years": 8.0,
+    "existing_emi": 20000
+  },
+  "APP005": {
+    "monthly_income": 30000,
+    "credit_score": 690,
+    "employment_years": 1.5,
+    "existing_emi": 3000
+  },
+  "APP006": {
+    "monthly_income": 22000,
+    "credit_score": 650,
+    "employment_years": 1.0,
+    "existing_emi": 2000
+  },
+  "APP007": {
+    "monthly_income": 95000,
+    "credit_score": 740,
+    "employment_years": 4.5,
+    "existing_emi": 30000
+  },
+  "APP008": {
+    "monthly_income": 55000,
+    "credit_score": 725,
+    "employment_years": 3.0,
+    "existing_emi": 8000
+  },
+  "APP009": {
+    "monthly_income": 45000,
+    "credit_score": 685,
+    "employment_years": 2.5,
+    "existing_emi": 6000
+  },
+  "APP010": {
+    "monthly_income": 150000,
+    "credit_score": 800,
+    "employment_years": 10.0,
+    "existing_emi": 25000
+  },
+  "APP011": {
+    "monthly_income": 35000,
+    "credit_score": 715,
+    "employment_years": 2.0,
+    "existing_emi": 4000
+  },
+  "APP012": {
+    "monthly_income": 70000,
+    "credit_score": 750,
+    "employment_years": 4.0,
+    "existing_emi": 14000
+  },
+  "APP013": {
+    "monthly_income": 110000,
+    "credit_score": 790,
+    "employment_years": 6.5,
+    "existing_emi": 18000
+  },
+  "APP014": {
+    "monthly_income": 50000,
+    "credit_score": 705,
+    "employment_years": 3.0,
+    "existing_emi": 10000
+  },
+  "APP015": {
+    "monthly_income": 65000,
+    "credit_score": 730,
+    "employment_years": 3.5,
+    "existing_emi": 9000
+  }
+}
